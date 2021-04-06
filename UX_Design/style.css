@@ -1,0 +1,507 @@
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Regular.ttf");
+}
+
+body {
+    min-height: 800px;
+    background-image: url('imagens/minion1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+}
+
+* {
+    font-family: "Lato";
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.main {
+    min-height: fit-content;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+}
+
+.logo:hover {
+    opacity: 0.92;
+}
+
+.header_icon {
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header_logo {
+    margin-left: 20px;
+}
+
+.welcome {
+    font-size: 23px;
+    font-weight: bold;
+    color: #288db4;
+}
+
+.header_buttons {
+    margin-left: auto;
+}
+
+.hover_buttons {
+    color: rgb(114, 114, 114);
+}
+
+.hover_buttons:hover {
+    color: #288db4;
+}
+
+.middle-row3 {
+    margin-top: 130px;
+    margin-bottom: 5px;
+}
+
+.middle-row3 * {
+    margin: auto;
+}
+
+.main .card_box2 {
+    width: 400px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.952);
+}
+
+.card_box2 * {
+    text-align: center;
+    margin: 0;
+}
+
+.main .card2 {
+    background-color: transparent;
+}
+
+.card-body2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-body2 h2, h3 {
+    color: #4b4848;
+    margin: 10px;
+    font: normal normal bold 23px "Lato";
+    letter-spacing: 1.5px;
+}
+
+.card-body2 span {
+    font: normal normal bold 40px/24px "Lato";
+    color: #4b4848;
+}
+
+.logotipo_dash_icon * {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+
+.logotipo_dash {
+    width: 100%;
+}
+
+.start-text {
+    text-decoration: none;
+    color: #4b4848;
+    opacity: 1;
+}
+
+.start-text:hover {
+    width: 21%;
+    text-decoration: none;
+    color: #288db4;
+    opacity: 0.95;
+}
+
+.start-text2 {
+    width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.979);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.dash_icon {
+    width: 50px;
+    padding: 5px;
+}
+
+.add-question-img {
+    width: 13%;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    opacity: 0.9;
+    padding: 0;
+}
+
+/*outro css*/
+
+/*Login*/
+
+.white_box {
+    margin: auto;
+    margin-top: 130px;
+    padding: 30px 50px;
+    box-shadow: 5px 0px 20px #00000029;
+    background-color: white;
+    opacity: 1;
+    width: 850px;
+}
+
+.logo_small {
+    margin: 20px;
+    max-height: 85px;
+}
+
+.title_next_appt {
+    color: black;
+}
+
+.main-col {
+    box-sizing: border-box;
+    margin: auto;
+    width: 350px;
+}
+
+.login-form {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-row {
+    box-sizing: border-box;
+    position: relative;
+    margin: 25px auto;
+    width: 100%;
+}
+
+.form-control {
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    color: #707070;
+}
+
+.form-input {
+    position: relative;
+    box-sizing: border-box;
+    padding: 12.5px 25px;
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    color: #707070;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+
+.big-form-input {
+    position: relative;
+    box-sizing: border-box;
+    padding: 12.5px 25px;
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    color: #707070;
+    height: 80%;
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 6px;
+}
+
+option {
+    font: normal normal bold 15px/18px Lato;
+}
+
+.login-a {
+    display: inline-block;
+    margin: 10px auto;
+    font: normal normal bold 15px/18px Lato;
+    color: #707070;
+}
+
+/*registo*/
+
+.registo {
+    margin: auto;
+}
+
+.nota {
+    font-size: 14px;
+}
+
+.registry-form .row {
+    box-sizing: border-box;
+    padding: 10px auto;
+}
+
+/*Perfil*/
+
+.perfil-main-col {
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+}
+
+.perfil-row {
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cell-row {
+    position: relative;
+    box-sizing: border-box;
+    width: 45%;
+    margin: 12.5px auto;
+    font: normal normal normal 15px/18px "Lato";
+}
+
+.cell-align-center {
+    margin: auto;
+}
+
+.cell-morada {
+    width: 95%;
+}
+
+/* Recover Password */
+
+.input1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #60C676;
+}
+
+.pass1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: #31ade0;
+}
+
+/*Buttons*/
+
+.btn-green {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #288db4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font: normal normal bold 15px/18px "Lato";
+    letter-spacing: 0.61px;
+    width: 100%;
+    border: transparent;
+    border-radius: 6px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn-green:hover {
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+select option:disabled {
+    color: lightgrey;
+}
+
+.btn-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.btn-check:active+.btn-outline-success, .btn-check:checked+.btn-outline-success, .btn-outline-success.active, .btn-outline-success.dropdown-toggle.show, .btn-outline-success:active {
+    color: #fff;
+    background-color: #60C676;
+    border-color: #60C676;
+}
+
+.btn-w40 {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btn-w25 {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+/*add-question*/
+
+.add-pergunta {
+    margin-bottom: 15px;
+}
+
+.conjunto-respostas {
+    margin-bottom: 10px;
+}
+
+.conjunto-respostas * {
+    font-size: 18px;
+}
+
+.select-dificuldade {
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+/*game*/
+
+.game-box {
+    width: 1000px;
+    padding: 10px;
+    box-shadow: 5px 0px 20px #797876;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 15px;
+}
+
+.white_box2 {
+    margin: auto;
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    border-radius: 15px;
+}
+
+.menu-jogo {
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.status-bar {
+    width: 1000px;
+    text-align: center;
+}
+
+.nav-right {
+    margin-left: 220px
+}
+
+.btn-w20 {
+    width: 25%;
+    margin: 10px;
+}
+
+.btn-w100 {
+    min-width: 450px;
+}
+
+.btn-help {
+    background: none;
+    border: none;
+}
+
+#id_ajudaPublico, #id_ajuda5050, #id_ajudaTrocaPergunta {
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+#id_ajudaPublico:disabled, #id_ajuda5050:disabled, #id_ajudaTrocaPergunta:disabled {
+    text-align: center;
+    text-decoration: none !important;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.text-center {
+    display: block;
+    margin: auto;
+}
+
+.cell-back, .btn-back {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.img-fill-form {
+    width: 160px;
+    height: 180px;
+    margin: 20px;
+}
+
+.title_next_appt {
+    margin: auto;
+    margin-left: 0;
+}
+
+.percentage {
+    margin-left: 0px;
+    color: #288db4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.percentage:hover {
+    color: #288db4;
+    cursor: default;
+    background-color: transparent;
+}
+
+.first-col {
+    width: 545px;
+    padding: 0;
+    margin-left: 120px;
+}
+
+.second-col {
+    width: 50px;
+    padding-left: 5px;
+}
+
+.btn-outline-success {
+    border-color: #60C676;
+    color: #4b4848;
+}
+
+.btn-outline-success:hover {
+    background-color: #60C676;
+    border-color: #60C676;
+}
+
+.error-color {
+    color: red;
+}
