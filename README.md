@@ -104,15 +104,15 @@ https://serro.pt/perguntas/api
 
 Realizado por:
 
-+ Carla Alexandra Nogueira
++ [Carla Alexandra Nogueira](https://github.com/carlan92)
 
-+ João Figueiredo
++ [João Figueiredo](https://github.com/JPMF661)
 
-+ Marco Humberto Americo Manuel
++ [Marco Humberto Americo Manuel](https://github.com/Ocram82)
 
-+ Pedro Miguel Duarte André
++ [Pedro Miguel Duarte André](https://github.com/PedroMDAndre)
 
-+ Rodrigo de Sa Ramos Esteves
++ [Rodrigo de Sa Ramos Esteves](https://github.com/Kio76)
 
-+ Tiago Costa
++ [Tiago Costa](https://github.com/Lee1904)
 
