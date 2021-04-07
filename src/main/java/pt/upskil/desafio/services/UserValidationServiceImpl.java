@@ -45,7 +45,7 @@ public class UserValidationServiceImpl implements UserValidationService {
     }
     @Override
     public UserValidationService validLastName(){
-        String lastName = user.getFirstName();
+        String lastName = user.getLastName();
 
         if (!lastName.matches("[A-Za-zÀ-ÿ']{2,}||[e]{1}")) {
             isValid = false;
