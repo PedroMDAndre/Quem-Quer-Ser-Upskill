@@ -6,6 +6,8 @@ Plataforma para um jogo online: Quem Quer Ser Upskill? A plataforma pretende ava
 jogadores nas mais diferentes áreas de conhecimento. O resultado obtido pelos participantes é apresentado num ranking de
 pontos.
 
+[Demo Online](https://quemquerserupskill.herokuapp.com/)
+
 ![Game Intro](./intro.jpg)
 
 ## 2 Requisitos do Desafio
